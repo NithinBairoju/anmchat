@@ -11,6 +11,7 @@ const port = process.env.PORT || 3000;
 const io = socketio(server);
 
 //set staic folder
+//just adding an comment 
 app.use(express.static(path.join(__dirname, 'public')));
 
 const botName = 'anm.chat';
